@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Yeseva+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Slider</title>
+</head>
+
+<body>
+  <main class="main">
+    <section class="projects">
+      <div class="container">
+        <div class="projects__tabs">
+          <ul class="projects__tabs-list"></ul>
+        </div>
+        <div class="projects__slider-wrapper">
+          <h2 class="title-2 projects__title projects__title_mobile">Completed projects</h2>
+          <p class="projects__text projects__text_mobile">
+            Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+            construction market we have made happy more than 1000 families.
+          </p>
+          <div class="projects__slider-info">
+            <h2 class="title-2 projects__title projects__title_desktop">Completed projects</h2>
+            <p class="projects__text projects__text_desktop">
+              Only a small part of the work performed by our company is presented on the site. For 14 years on in the
+              construction market we have made happy more than 1000 families.
+            </p>
+            <div class="projects__info">
+              <div class="projects__info-inner">
+                <div class="projects__info-item projects__info-city">
+                  <h3 class="title-3 projects__info-item__title">
+                    City:
+                  </h3>
+                </div>
+                <div class="projects__info-item projects__info-area">
+                  <h3 class="title-3 projects__info-item__title">
+                    Apartment area:
+                  </h3>
+                </div>
+                <div class="projects__info-item projects__info-time">
+                  <h3 class="title-3 projects__info-item__title">
+                    Repair time:
+                  </h3>
+                </div>
+                <div class="projects__info-item projects__info-cost">
+                  <h3 class="title-3 projects__info-item__title">
+                    Repair Cost:
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="slider-pagination projects__slider-pagination">
+              <button class="slider-pagination__btn projects__slider-arrow projects__slider-btn_prev" type="button">
+                <img src="./images/arrow-left.svg" alt="arrow prev" loading="lazy">
+              </button>
+              <ul class="slider-pagination__list"></ul>
+              <button class="slider-pagination__btn projects__slider-arrow projects__slider-btn_next" type="button">
+                <img src="./images/arrow-right.svg" alt="arrow next" loading="lazy">
+              </button>
+            </div>
+          </div>
+          <div class="projects__slider_mobile">
+            <button class="projects__slider-arrow projects__slider-btn_prev slider-btn_mobile" type="button">
+              <img src="./images/mobile/mobile-prev.svg" alt="arrow prev" loading="lazy">
+            </button>
+            <div class="projects__slider"></div>
+            <button class="projects__slider-arrow projects__slider-btn_next slider-btn_mobile" type="button">
+              <img src="./images/mobile/mobile-next.svg" alt="arrow next" loading="lazy">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
